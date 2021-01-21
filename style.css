@@ -1,0 +1,47 @@
+body{
+    background-image: url(img/fundo.jpg);
+    height: 100%;
+    display: block;
+    background-size: cover;
+    margin: 0px;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.caixa{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    height: 285px;
+    width: 315px;
+    margin: 10px;
+    vertical-align:top;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+#regiao{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    margin-top: 16px;
+    text-align: center;
+}
+
+
+
+.foto{
+    width: 275px;
+    height: 183px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}

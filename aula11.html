@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 caixa cx-esq">
+                <h1>Cidade que vc veio</h1>
+                <label>cidade do(e)
+                <select id="cidade" name="cidade" onchange="selecionar()">
+                    <option value="selecione" class="selecione">Selecione</option>
+                    <option value="Rio" class="rio">Rio de Janeiro</option>
+                    <option value="Sampa" class="sp">São paulo</option>
+                    <option value="Minas" class="mg">Minas Gerais</option>
+                </select>
+            </div>
+
+            <div class="col-md-5 caixa cx-dir" id="escolha">
+                <img src="img/download.jpg" class="foto bg-escolha"> 
+                <p id="regiao">Aguardando a resposta</p>              
+                
+            </div>
+        </div>
+    </div>
+     
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
